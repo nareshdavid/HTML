@@ -22,5 +22,66 @@
     </nav>
     <section>
         <!-- Method GET pasa los datos por la url, atravez de parametros// Method POST pasa los datos de forma interna (no se ven) -->
+        <form action="datos.php" method="post">
+            <!-- seccion de marco de formulario -->
+            <fieldset>
+                <!-- seccion de ingreso de nombre -->
+                <label>Nombre completo:</label>
+                <input name="nombre" type="text" placeholder="ingrese su nombre completo" required="" >
+                <br><br>
+
+                <!-- seccion email -->
+                <label>E-mail:</label>
+                <input name="email" type="email" placeholder="ingrse su email" required="">
+                <br><br>
+
+                <!-- seccion contraseña -->
+                <label>contraseña</label>
+                <input name="contraseña" type="password0" placeholder="ingrse su contraseña" required="" >
+                <br><br>
+
+                <!-- seccion hobbies -->
+                <label>Selecciona tus hobbies</label>
+                <br>
+            <input nmae="cine" type="checkbox">cine<br>
+            <input nmae="lectura" type="checkbox">lectura<br>
+            <input nmae="deporte" type="checkbox">deporte<br>
+            <br>
+            <br>
+
+            <!-- Estado civil -->
+
+            <label>Estado civil</label><br>
+            <input name="estcivil" type="radio" value="casado">casado(a)<br>
+            <input name="estcivil" type="radio" value="soltero">soltero(b)<br>
+            <input name="estcivil" type="radio" value="viudo">viudo(c)<br>
+            <br>
+            <br>
+
+            <!-- seleccionar opcion lista -->
+            <label>PROGRAMAS TECNICOS</label>
+<select name="select">
+<option>seleccione programa</option>
+<option>Sistemas</option>
+<option>Diseño grafico</option>
+<option>Contabilidad</option>
+            </select>
+            <br>
+            <br>
+            <label>Tu comentario:</label><br>
+            <textarea name="mensaje" cols="40" rows="5"></textarea>
+            </fieldset>
+            <br><br>
+            <!-- seccion de botones formulario submit: enviar datos cancel: borrar datos ingrsados -->
+            <button type="submit">Enviar</button>
+            <button type="reset">Cancelar</button>
+            <br>
+            <br>
+            </form>
+            </section>
+            <!-- seccion de pie de pagina -->
+            <footer>
+                Derechos reservados &copy;2022&#64;NARESH DAVID CARRANZA TORRES
+            </footer>
 </body>
 </html>
