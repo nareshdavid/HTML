@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TARJETA TU LLAVE</title>
+    <!-- link de sitio sweetalert mensajes más elegantes-->
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+</head>
+<body>
+    <center>
+        <img src="img/logo de TM.jpg" alt="" height="150" width="150">
+        <h2>SALDO DE TARJETA TU LLAVE TM</h2>
+        <script>
+            //ENTRADA
+            var saldo=0;
+            const TM=2650;
+            saldo=parseInt(prompt("ingrese saldo de la tarjeta"));
+            //PROCESO
+            if(saldo>=TM){
+                swal("señor usuario", "ingrese a sistema Transmilenio", "success");
+            }else{
+                swal("señor usuario", "Recargue La Tarjeta..saldo insuficiente", "error");
+            }
+            </script>
+    </center>
+</body>
+</html>
