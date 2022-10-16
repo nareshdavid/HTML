@@ -1,0 +1,58 @@
+.menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    list-style: none;
+    padding: 0;
+    background-color: rgb(18, 40, 102);
+    margin: 0;
+    width: 100%;
+}
+.menu li a{
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+}
+.menu li a{
+    display: flex;
+    text-align: center;
+}
+.menu li a:hover{
+    background: rgb(67, 255, 161);
+}
+.slider{
+    width: 95%;
+    margin: auto;
+    overflow: hidden;
+}
+.slider ul{
+    display: flex;
+    padding: 0;
+    width: 400%;
+    animation: cambio 20s infinite alternate;
+    animation-timing-function: ease-in;
+    box-shadow: rgb(29, 151, 252);
+}
+.slider li{
+    width: 100%;
+    list-style: none;
+}
+
+slider img{
+    width: 100%;
+}
+@keyframes cambio{
+    0%{margin-left: 0;}
+    20%{margin-left: 0;}
+
+    25%{margin-left: -100%;}
+    45%{margin-left: -100%;}
+
+    50%{margin-left: -200%;}
+    70%{margin-left: -200%;}
+
+    75%{margin-left: -300%;}
+    100%{margin-left: -300%;}
+}
