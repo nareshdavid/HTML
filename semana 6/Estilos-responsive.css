@@ -279,9 +279,8 @@ box-sizing: border-box;
     }
     iframe{
         max-width: 100%;
-        height: auto;
+        height: auto;}
 
-        .buscarbox{
+.buscarbox{
     display:none;
-}
 }
