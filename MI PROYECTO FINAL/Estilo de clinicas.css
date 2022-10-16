@@ -28,7 +28,7 @@
     box-sizing: border-box;
 }
 body{
-    background: rgb(29, 255, 187);
+    background:linear-gradient(rgb(61, 97, 255), rgb(74, 255, 225))
 }
 .title{
     text-align: center;
@@ -105,3 +105,4 @@ img{
     transform: translateX(0) scale(1);
     z-index: 1;
 }
+
