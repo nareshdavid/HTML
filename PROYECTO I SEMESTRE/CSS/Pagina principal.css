@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Century Gothic';
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+img{
+    max-width: 100%
+}
+.titulo{
+    width: 100%;
+    background: rgb(75, 75, 75);
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.titulo h1{
+    color: rgb(71, 5, 5);
+    font-size: 34px;
+    font-weight: 200;
+    text-align: center;
+}
+.navegacion{
+    width: 100%;
+    background: #920606;
+    display: flex;
+    justify-content: center;
+}
+.menu{
+    width: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+    background: white;
+    height: 90px;
+}
+.menu li{
+    flex-basis: 0;
+    flex-grow: 1;
+
+}
+.menu li a{
+    display: flex;
+    flex-direction: column;
+}
