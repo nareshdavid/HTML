@@ -1,55 +1,46 @@
 *{
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
 }
 body{
-    font-family: 'Century Gothic';
+    background: rgb(105, 86, 86);
 }
-a{
-    text-decoration: none;
-}
-ul{
-    list-style: none;
-}
-img{
-    max-width: 100%
-}
-.titulo{
-    width: 100%;
-    background: rgb(75, 75, 75);
-    height: 200px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.titulo h1{
-    color: rgb(71, 5, 5);
-    font-size: 34px;
-    font-weight: 200;
+h1{
+    font-weight: 400;
     text-align: center;
+    padding: 20px 0;
+    font-size: 40px;
 }
-.navegacion{
+.linea{
+    background: rgb(116, 41, 53);
+    height: 40px;
     width: 100%;
-    background: #920606;
-    display: flex;
-    justify-content: center;
+    display: block;
 }
-.menu{
-    width: 1000px;
-    display: flex;
-    flex-wrap: wrap;
-    background: white;
-    height: 90px;
+.promocion{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    width: 95%;
+    margin: auto;
+    grid-gap: 10px;
+    padding: 40px 0;
+    overflow: hidden;
 }
-.menu li{
-    flex-basis: 0;
-    flex-grow: 1;
-
+.promocion img{
+    width: 100%;
+    vertical-align: top;
+    height: 300px;
+    border-radius: 3%;
+    transition: transform 0.5s;
 }
-.menu li a{
-    display: flex;
-    flex-direction: column;
+.promocion > a{
+    display: block;
+    position: relative;
+    overflow: hidden;
+    box-shadow: rgb(22, 19, 19);
+}
+.promocion a:hover img{
+    filter: blur(1px);
+    transform: rotate(10deg) scale(1.3);
 }
