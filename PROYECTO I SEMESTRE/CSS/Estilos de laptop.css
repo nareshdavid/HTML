@@ -1,7 +1,10 @@
 body{
     margin: 0;
-    background-color: rgb(192, 155, 107);
     font-family: 'Nerko One', cursive;
+    background-image: url(../IMG/fondo\ de\ lapto.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
 }
 button{
     font-size: 16px;
