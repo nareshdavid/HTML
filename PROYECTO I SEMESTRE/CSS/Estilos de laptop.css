@@ -13,12 +13,14 @@ button{
     padding: 10px 20px;
 }
 .page-nav{
-    background-color: rgb(131, 36, 36);
-    border: 1px solid rgb(12, 12, 12);
+    background-color: rgb(121, 27, 27);
+    border: 1px solid rgb(48, 80, 88);
     position: relative;
 }
 .page-nav h1{
     margin: 20px;
+    color: aquamarine;
+    text-align: center;
 }
 .button-checkout{
     background-color: white;
@@ -47,11 +49,20 @@ button{
     box-shadow: 0 8px 16px 0 rgb(255, 18, 18);
 }
 .product-container img{
-    padding: 100px;
+    width: 400px;
+    transition: 0.8s;
 }
-.product-container h3{
+.product-container img:hover{
+    transform: scale(1.7);
+    transition: 2s;
+}
+.product-container h1{
     margin-bottom: 10px;
     margin-left: 15px;
+    color: rgb(206, 56, 56);
+}
+.product-container h2{
+    color: brown;
 }
 .button-add{
     background-color: white;

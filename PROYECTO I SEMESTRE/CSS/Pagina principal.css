@@ -4,7 +4,8 @@
     padding: 0;
 }
 body{
-    background: rgb(133, 118, 118);
+    background: rgb(236, 196, 16);
+    font-family: 'Nerko One', cursive;
 }
 h1{
     font-weight: 400;
@@ -13,7 +14,7 @@ h1{
     font-size: 40px;
 }
 .linea{
-    background: rgb(116, 41, 53);
+    background: rgba(5, 5, 5, 0.589);
     height: 40px;
     width: 100%;
     display: block;
