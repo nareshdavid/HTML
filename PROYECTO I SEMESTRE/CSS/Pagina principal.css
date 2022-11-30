@@ -4,7 +4,7 @@
     padding: 0;
 }
 body{
-    background: rgb(183, 220, 223);
+    background: rgba(46, 63, 65, 0.795);
     font-family: 'Nerko One', cursive;
 }
 h1{
@@ -12,6 +12,10 @@ h1{
     text-align: center;
     padding: 20px 0;
     font-size: 40px;
+}
+h2{
+    text-align: center;
+    color: rgb(248, 109, 45);
 }
 .linea{
     background: rgba(5, 5, 5, 0.589);
