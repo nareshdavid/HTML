@@ -41,6 +41,7 @@ h2{
 }
 .promocion img{
     width: 100%;
+    height: auto;
     vertical-align: top;
     height: 300px;
     border-radius: 3%;
@@ -60,6 +61,9 @@ h2{
     align-items: center;
     display: flexbox;
     position: relative;
+}
+.video iframe{
+    border-radius: 20px;
 }
 .video h1{
     text-align: center;
