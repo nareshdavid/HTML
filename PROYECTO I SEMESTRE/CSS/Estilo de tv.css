@@ -84,3 +84,14 @@ button{
 html.dark-mode body{
     background: black;
 }
+.btn{
+    display: inline-block;
+    background-color: #fafafa00;
+    border-style: initial;
+    color: rgb(62, 125, 207);
+    text-transform: uppercase;
+    text-decoration: none;
+    width: 154px;
+    margin: 2px 18px;
+    padding: 9px;
+}

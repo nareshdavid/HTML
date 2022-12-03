@@ -77,3 +77,14 @@ button{
     background-color: #8f253c; /* Green */
     color: rgba(232, 252, 53, 0.473);
 }
+.btn{
+    display: inline-block;
+    background-color: #fafafa00;
+    border-style: initial;
+    color: rgb(29, 235, 132);
+    text-transform: uppercase;
+    text-decoration: none;
+    width: 154px;
+    margin: 2px 18px;
+    padding: 9px;
+}
