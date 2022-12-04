@@ -69,3 +69,40 @@ h2{
     text-align: center;
     color: violet;
 }
+
+@media (max-width:600px){
+    .linea{
+        width: 108%;
+    }
+    .promocion{
+        width: 500px;
+        display: flexbox;
+        align-content: center;
+    }
+    
+}
+@media (max-width:400px){
+        body h1{
+            text-align: center;
+        }
+        
+    .linea{
+        width: 280%;
+        color: white;
+        }
+        .promocion{
+            width: 180%;
+            display: flexbox;
+            margin: 0 0 0px 140px;
+        }
+        .promocion img{
+            border-style: dashed;
+        }
+        .video{
+            width: 280%;
+        }
+        .titulo-final{
+            padding-left: 30pc;
+            display: flex;
+        }
+    }
